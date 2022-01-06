@@ -1,9 +1,5 @@
 import React from 'react';
 
 export default function common() {
-    return (
-        <div>
-            
-        </div>
-    )
+    return <div>common</div>
 }

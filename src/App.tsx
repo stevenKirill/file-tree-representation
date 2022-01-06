@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import { AiOutlineFileText, AiFillFolderAdd, AiOutlineMinusCircle } from 'react-icons/ai';
+import { BsPlusCircle } from 'react-icons/bs';
+import tree from './data/tree.json';
 import './App.css';
 
 function App() {
+  const [data,setData] = useState<object | null>(null);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setData(tree);
+    },1000)
+  },[]);
+  
+  console.log(data,'=>>> data');
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
     </div>
   );
 }
