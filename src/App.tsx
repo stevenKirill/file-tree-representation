@@ -13,7 +13,7 @@ function App() {
     },1000)
   },[]);
   
-  console.log(data,'=>>> data');
+  console.log(data,'=>>> данные');
   
   return (
     <div className="App">
