@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/file-tree-representation/static/css/main.52e83faf.css",
+    "main.js": "/file-tree-representation/static/js/main.cc9b459e.js",
+    "static/js/787.1c6b62e3.chunk.js": "/file-tree-representation/static/js/787.1c6b62e3.chunk.js",
+    "index.html": "/file-tree-representation/index.html",
+    "main.52e83faf.css.map": "/file-tree-representation/static/css/main.52e83faf.css.map",
+    "main.cc9b459e.js.map": "/file-tree-representation/static/js/main.cc9b459e.js.map",
+    "787.1c6b62e3.chunk.js.map": "/file-tree-representation/static/js/787.1c6b62e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52e83faf.css",
+    "static/js/main.cc9b459e.js"
+  ]
+}
