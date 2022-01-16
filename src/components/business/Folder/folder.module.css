@@ -1,0 +1,17 @@
+.nodeWrapper {
+    display: flex;
+    align-items: center;
+}
+.node {
+    display: flex;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.openerWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rootNode {
+    margin-right: 6px;
+}

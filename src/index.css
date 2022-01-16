@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul {
+  padding: 0;
+  margin-left: 5px;
+}
+ul li {
+  list-style: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.tree_root_node {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
